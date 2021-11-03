@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="C81200" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Boundary</rs> marker</title>
+                         <editor xml:id="edd">Editors</editor> <editor xml:id="jmr">Joyce M. Reynolds </editor> <editor xml:id="cmr"> Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">P.397</idno>
+            <idno type="ircyr2012">C81200</idno>
+            <idno type="JMR">Y 17</idno>
+            <idno type="Excel">1202</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                    (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the
+                    URL <ref>http://inslib.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db1096">Tolmeita Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Brown <material>limestone</material> <objectType>stele</objectType> recomposed from three pieces
+                              (<dimensions>
+                                 <width>0.59</width>
+                                 <height>1.34</height>
+                                 <depth>0.40</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on one face which is damaged along the cracks and all edges.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Line 1, <height>0.07</height>; line  2, <height>0.06</height>; lines 3 following, <height>0.055</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notAfter="0072" notBefore="0072" evidence="reign titulature" precision="high">CE 72, first half</origDate>
+                  </origin>
+
+
+                        <provenance type="found">
+                           <p>
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/912">Ptolemais</placeName>:
+                              near Tolmeita, precise findspot unrecorded; found <date type="found">before 1933</date>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>
+                              <placeName ref="https://www.slsgazetteer.org/1096">Tolmeita Museum</placeName>
+                           </p>
+                        </provenance>
+
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category><category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+               <term>
+                        <placeName type="modernFindspot" ref="http://sws.geonames.org/82972">Tolmeita</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds).</creation></profileDesc>
+      <revisionDesc>
+         <change when="2020-11-24" who="Irene">inserted lemmata and normalized Unicode</change>
+         <change when="2012-11-05" who="GB">moved text-constituted-from to profileDesc/creation</change>
+         <change when="2012-10-16" who="GB">broke provenance events into multiple provenance elements</change>
+         <change when="2012-07-27" who="GB">lemmatized Greek placenames</change>
+         <change when="2011-02-17" who="MGDA">fixed bibliography</change>
+         <change when="2010-08-04" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2010-06-16" who="AIO">tokenized</change>
+         <change when="2010-04-21" who="CMR">added bibliography, title, xrefs</change>
+         <change when="2009-08-25" who="Paolo">turned to XML and tidied</change>
+         <change when="2009-08-19" who="GB">mailmerged: created from template</change>
+      </revisionDesc>
+   </teiHeader><facsimile><graphic url="JMR_Y17" decls="#photograph"><desc>View</desc></graphic><!--Dept. E. 162.--></facsimile><!-- check image -->
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="oliverioDAI2"/>, <citedRange unit="entry">138</citedRange>, p.132, pl.XLIX, fig 109</bibl>,
+               whence  <bibl>
+                  <ptr target="SEG"/> <citedRange>9.360</citedRange></bibl>,
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/324209">324209</ref></citedRange></bibl>, <bibl><ptr target="AE"/> <citedRange>1934.261</citedRange></bibl>, whence <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD027202">027202</ref></citedRange></bibl>;
+               discussed <bibl><ptr target="kraeling1962a"/>, <citedRange>10, 113-4</citedRange></bibl>, <bibl><ptr target="struffolino2014"/>, <citedRange>363</citedRange></bibl>.
+               <!-- check 1939.92 ; cf. also <bibl><ptr target="oliverio1940"/>, <citedRange>377</citedRange></bibl> <bibl>
+                  <ptr target="romanelli1943"/>  <citedRange unit="page">101</citedRange></bibl>--></p>
+         </div>
+
+         <div type="edition" xml:space="preserve">
+           <ab>
+             [I]ṃp̣(erator) Caesar Vespa-
+             sianus ((stop)) Aug(ustus) ((stop)) pont(ifex) m(aximus)
+             tr(ibunicia) pot(estate) ((stop)) IIII imp(erator) ((stop)) VIII p(ater) p(atriae)
+             co(n)s(ul) ((stop)) IIII ((stop)) desig(natus) ((stop)) V per
+             5Q(uintum) ((stop)) Paconium ((stop)) leg(atum)
+             suum ((stop)) hortum ((stop))
+             P(opulo)((stop)) R(omano) rest(ituit) ( vac. 6)
+             Αὐτοκράτωρ Καῖσαρ
+             Οὐεσπ̣α̣σ̣[ια]νὸς ἀρχι-
+             10ερεὺς μέγιστος δη-
+             μαρχικῆς ἐξουσίας
+             τὸ γ´ Αὐτοκράτωρ τὸ [η´ ]
+             πατὴρ πατρίδος ὕπ[α-]
+             τος τ[ὸ] δ´ ἀποδεδειγ[μέ-]
+             15νος τὸ ε´ διὰ Κ(ουΐντου) Πακω[νίου]
+             Ἀγριππείνου ἰδίο[υ πρεσβ-]
+             ευτοῦ ( vac. 1) κῆπον Δ(ήμῳ) Ῥ̣(ωμαίων)
+             ἀποκατέστ( vac. 1)ησεν
+           </ab>
+</div>
+
+         <div type="translation" xml:space="preserve"><head>Translations</head>
+            <div type="translation" source="#oliverioDAI2" xml:lang="it"><p>L'Imperatore Cesare Vespasiano Augusto pontefice massimo, investito della
+            poteståa tribunizia per la terza volta, imperatore per l'ottava, padre del patria, console per la quarta volta, designato per la quinta,
+            per mezzo di Q. Paconio, suo legato, l'orto al Popolo Romano restituì</p></div>
+            <div type="translation" resp="#cmr" xml:lang="en"><p>a: <note>Latin</note>: Emperor Caesar Vespasian Augustus, pontifex maximus,
+            <ref target="https://godot.date/id/mPDJbzZ6tjKSBZXmaLB6oM">holding tribunician power for the fourth time, acclaimed imperator for the eighth time, father of the fatherland, consul four times,
+            designated for a fifth time</ref>, through his personal envoy Q(uintus) Paconius Agrippinus restored the garden to the Roman People.</p>
+            <p>b: <note>Greek</note>: Emperor Caesar Vespasian, pontifex maximus,
+            <ref target="https://godot.date/id/WpbvT9XHKpKMW9bYD7N8cm">holding tribunician power for the third time, acclaimed imperator for the eighth time, father of the fatherland, consul four times,
+            designated for a fifth time</ref>, through his personal envoy K(ointos) Pakonios Agrippeinos restored the garden to the Roman People.</p></div>
+         </div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>Though the letters are more carefully cut than on most boundary stelae, there is clear evidence of careless copying,
+               cf. the inconsistency in the <foreign xml:lang="la">trib. pot.</foreign> number as given in the Latin (l. 3) and the Greek version (l. 12), the omission of Paconius' cognomen in line 5 and the title <foreign xml:lang="grc">Σεβαστός</foreign> in line 9 </p>
+            <p> Vespasian was <foreign xml:lang="la">trib. pot. III</foreign> from 1st July 71 to 30th June 72 and <foreign xml:lang="la">trib. pot. IIII</foreign>
+               in the following year, held his fourth consulship from 1st Jan. 72 and his fifth from 1st Jan. 74,
+               was <foreign xml:lang="la">imperator VIII</foreign> late in 71 and <foreign xml:lang="la">imperator IX</foreign> during 72;
+               the date of inscription should therefore be the first half of 72 - and as Oliverio pointed out the cutter has erred over the trib. pot. number in the Latin version </p>
+            <p>Q. Paconius Agrippinus, for whom see <title>PIR<hi rend="superscript">2</hi></title> P 0027, was active in Cyrenaica under Vespasian, 71-74 CE: see <ref type="inscription" n="C.147">C.147</ref>,
+               <ref type="inscription" n="C.428">C.428</ref>, <ref type="inscription" n="C.429">C.429</ref>, <ref type="inscription" n="C.430">C.430</ref>,
+               <ref type="inscription" n="C.430">C.438</ref>, <ref type="inscription" n="C.747">C.747</ref>, <ref type="inscription" n="M.68">M.68</ref>,
+               <ref type="inscription" n="M.165">M.165</ref>, <ref type="inscription" n="M.229">M.229</ref>, <ref type="inscription" n="M.230">M.230</ref>,
+               <ref type="inscription" n="M.232">M.232</ref>, <ref type="inscription" n="M.238">M.238</ref>, <ref type="inscription" n="M.239">M.239</ref>,
+               <ref type="inscription" n="P.397">P.397</ref>.</p></div>
+
+      </body>
+   </text>
+</TEI>

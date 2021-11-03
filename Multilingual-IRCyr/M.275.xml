@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="C80600" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Boundary</rs> marker</title>
+                         <editor xml:id="edd">Editors</editor> <editor xml:id="jmr">Joyce M. Reynolds </editor> <editor xml:id="cmr"> Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">M.275</idno>
+            <idno type="ircyr2012">C80600</idno>
+            <idno type="JMR">Y 11 a</idno>
+            <idno type="Excel">1184</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                    (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the
+                    URL <ref>http://inslib.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db933">Cyrene Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Brown <material>limestone</material> <objectType>stele</objectType>, tapering a little towards the top,
+                              reconstructed from several pieces
+                              (<dimensions>
+                                 <width>0.685-0.62</width>
+                                 <height>1.83</height>
+                                 <depth>0.42</depth>
+                              </dimensions>).
+                              Fragment c: from the right side of the stele
+                              (<dimensions>
+                                 <width>0.53</width>
+                                 <height>0.41</height>
+                                 <depth>0.06</depth>
+                              </dimensions>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on three sides. The stone is of poor quality and the inequalities of the stone which made cutting difficult
+                           or impossible in many places have imposed an odd layout. a: The front face, very badly worn.
+                           b: The reverse face, on a prepared surface, which is considerably worn. c. The left side of the stele.</layout><!-- check -->
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>a: Average <height>0.04</height>. c. Average <height>0.045-0.05</height>.
+                        b: Average <height>0.04</height>; ΟΣ at the of line  4 and Σ at the end of line  8 distinctly smaller; superscript bar above the figure line  7.
+                        </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0053" notAfter="0053" precision="high" evidence="titulature">CE 53</origDate>
+                  </origin>
+
+
+                        <provenance type="found">
+                           <p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/1617">Gebel Akhdar: East of Cyrene</placeName>
+                              <placeName ref="https://www.slsgazetteer.org/1201">Beit Tamer</placeName>:
+                              found in <date type="found">1952</date>.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p><placeName ref="https://www.slsgazetteer.org/933">Cyrene Museum</placeName></p>
+                        </provenance>
+
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category><category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+               <term>
+                  <placeName type="modernFindspot" ref="http://sws.geonames.org/87897">Bu ath Thamir</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Reynolds).</creation></profileDesc>
+      <revisionDesc>
+         <change when="2020-11-24" who="Irene">inserted lemmata and normalized Unicode</change>
+         <change when="2012-11-05" who="GB">moved text-constituted-from to profileDesc/creation</change>
+         <change when="2012-10-31" who="SS">added C.805 as fragment C</change>
+         <change when="2012-10-16" who="GB">broke provenance events into multiple provenance elements</change>
+         <change when="2012-07-27" who="GB">lemmatized Greek placenames</change>
+         <change when="2010-08-04" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2010-06-16" who="AIO">tokenized</change>
+         <change when="2009-08-20" who="Paolo">turned to XML and tidied</change>
+         <change when="2009-08-19" who="GB">mailmerged: created from template</change>
+      </revisionDesc>
+   </teiHeader>
+                     <facsimile>
+                        <graphic url="Photos_0157" decls="#photograph"><desc>Face b, at the time of discovery, with fragments of upper left corner missing</desc></graphic>
+                        <graphic url="C80500_DeptF4661" decls="#photograph"><desc>Face b (Department of Antiquities, F 4661)</desc></graphic>
+                        <graphic url="C80500" decls="#photograph"><desc>Face b</desc></graphic>
+
+                        <!--  Dept. F. 4660 (face A)???; no photo of face C? -->
+
+                     </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>Faces b and a:
+                  <ptr target="jmr1971c"/>, <citedRange>1</citedRange></bibl>, whence (a)<bibl><ptr target="AE"/> <citedRange>1974.682</citedRange></bibl>,
+               and<bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD011697">HD011697</ref></citedRange></bibl>,
+               whence also <bibl><ptr target="SEG"/> <citedRange>26.1819</citedRange></bibl>,
+               whence <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/324714">324714</ref></citedRange></bibl>.  <!-- Check face C -->
+            </p>
+         </div>
+
+         <div type="edition" xml:space="preserve">
+            <ab>
+              a
+              [Ti(berius) Claudius]
+              C̣aesa[r Augustus]
+              Geṛ[manicus]
+              - - - - - - - - - -
+              5per L(ucium) Ac[ili]um Str[a-]
+              bọnem ḷ[e]g̣ạṭuṃ suum p̣ṛaeḍịạ [a] p̣ṛịụạṭịṣ
+              poss( vac. 1)es[sa P(opulo) R(omano)] res( vac. 1)ti-
+              ( vac. 3)tuit ( vac. 3)
+              b
+              [Τι(βέριος)] Κλαύδιος ( vac. 1)
+              [ ( vac. 1)? Κ]α̣ῖσαρ Σεβαστὸς
+              [ ( vac. 3)?] Γερμαν[ι]κὸς ( vac. 1)
+              [ ( vac. 3)? ἀρχ]ι̣ερεὺς μέγιστος
+              5( vac. 1) δημ̣α̣ρ[χικῆ]ς ἐξου-
+              σ[ία]ς τὸ ι̣γ̣´ Α̣ὐ̣τοκρά-
+              τ̣[ω]ρ̣ τὸ κζ´ π̣ατ̣[ὴρ]
+              πα̣τρ( vac. 1)ίδος τιμητὴς
+              [ ( vac. 3)? ὕπα]τ̣ος [τὸ ε´ ]
+              10διὰ Λ(ευκὶου) Ἀκ̣[ιλίο]υ ( vac. 1)
+              Σ̣τ̣ρ̣ά̣β̣ - ( vac. 5)
+              ω̣ν̣ο̣ς̣ τοῦ ( vac. 3)
+              ἰδίου πρεσβε̣υ̣τοῦ
+              χωρία ὑπὸ ἰδιωτῶν ( vac. 1)
+              15( vac. 1) κατεχόμενα Δήμῳ
+              ( vac. 1) Ῥωμαίων ἀπο- ( vac. 3)
+              ( vac. 1)κατέστησε ( vac. 3)
+              c
+              ------
+              [---] Kλαύδι̣ος [---]
+              [Κ]αῖσα[ρ] Σεβαστὸς
+              [Γ]ερμ[ανι]κὸς
+              [...] ἀρχ( vac. 1)ιερεὺς μέγιστος
+              5[...] δ̣η̣μαρχ̣[ικ]ῆ̣ς ἐξου-
+              [...]σ[ία]ς τὸ η̣´ Αὐτοκρά-
+              [τωρ] τὸ κζ´ πατ̣[ὴρ]
+              [πατρ]ίδος τιμητὴς
+              [ὕπατ]ος [τὸ ε´ ]
+              ( vac. 1 line)
+              10διὰ Λ(ευκὶου) Ἀκ̣[ιλίου]
+              ( vac. 1 line)
+              [Στράβωνο]ς τοῦ
+              ( vac. 1 line)
+              ἰδίου π̣ρ̣ε̣σβ̣ε̣[υτ]οῦ
+              ΧΟΜ̣ [---] Ο
+              ΕΝΑΛ̣Ω
+              15ΟΚΑ
+              κατέστησεν̣
+            </ab>
+            </div>
+         <div type="apparatus">
+            <head>Apparatus</head>
+         </div>
+         <div type="translation" xml:space="preserve"><head>Translation</head>
+         <div type="translation" resp="#cmr" xml:lang="en"><p><note>Latin</note>: [Ti(berius)] Claudius Caesar Augustus Germanicus, pontifex maximus,
+            <ref target="https://godot.date/id/CqLo7ugF827o8WUiBwt488">holding tribunician power for the thirteenth time, acclaimed imperator for the twenty-seventh time, father of the fatherland, censor, consul
+               [for the fifth time]</ref>; by the action of L(ucius) Ac[ili]us Strabo, his personal envoy,
+            he restored [to the Roman People] properties which had been occupied by private persons.</p>
+         <p><note>Greek: face b</note>: [Ti(berius) Claudius] Caesar [Augustus] Germanicus, high priest <supplied reason="explanation"><foreign xml:lang="la">pontifex maximus</foreign></supplied>,
+            <ref target="https://godot.date/id/CqLo7ugF827o8WUiBwt488">holding tribunician power for the thirteenth time, acclaimed imperator for the twenty-seventh time</ref>, father of the fatherland, censor  consi=ul [for the fifth time];
+            by the action of L(ucius) Ac[iliu]s Strabo, his personal envoy, he restored to the Roman People properties which had been occupied by private persons.</p>
+         <p><note>Greek: face c</note>: [Ti(berius)] Claudius Caesar [Augustus] Ger[manicus high priest <supplied reason="explanation"><foreign xml:lang="la">pontifex maximus</foreign></supplied>,
+            <ref target="https://godot.date/id/o34w6R7W9RBAG9PAnnwnWY">holding tribunician power for the eighth time, acclaimed imperator for the twenty-seventh time</ref>,
+            father of the fatherland, censor [ . . . ]; by the action of L(ucius) Ac[iliu]s Strabo, his personal envoy,
+            he restored [ . .]</p></div>
+         </div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>a, the principal text, is in worse condition; b gives the fuller text and enables the restorations. c appears to represent a first attempt at inscribing b, on an unsatisfactory surface.</p>
+            <p>Claudius became <foreign xml:lang="la">pater patriae</foreign> in January 42, censor in 47, consul for the 5th and last time in 51, imperator for the 27th and last time in 52 and
+               held the tribunician power for the 13th time from January 53 - January 54.
+               Although Tac. Ann. XIV. 18 (available at <ref target="http://data.perseus.org/citations/urn:cts:latinLit:phi1351.phi005.perseus-lat1:14.18">Perseus</ref>) states that Acilius Strabo was commissioned by
+               Claudius this, with <ref type="inscription" n="M.141">M.141</ref> and <ref type="inscription" n="M.238">M.238</ref>, currently provide the only epigraphic evidence for his activity before the accession of Nero.
+              <!-- This suggests that Strabo began his work in the country districts on the Gebel, at some distance from Cyrene --> .</p>
+            <p>For Acilius Strabo see <title>PIR<hi rend="superscript">2</hi></title> A 0082, and <ref target="http://pir.bbaw.de/addenda/A/0082.html">addenda</ref>; he was active in Cyrenaica under Claudius and
+               Nero: <ref type="inscription" n="A.25">A.25</ref>, <ref type="inscription" n="A.50">A.50</ref>, <ref type="inscription" n="A.68">A.68</ref>,
+               <ref type="inscription" n="C.434">C.434</ref>,  <ref type="inscription" n="C.748">C.748</ref>, <ref type="inscription" n="M.125">M.125</ref>,
+               <ref type="inscription" n="M.141">M.141</ref>, <ref type="inscription" n="M.143">M.143</ref>,
+               <ref type="inscription" n="M.153">M.153</ref>, <ref type="inscription" n="M.172">M.172</ref>, <ref type="inscription" n="M.238">M.238</ref>,
+               <ref type="inscription" n="M.251">M.251</ref>, <ref type="inscription" n="M.275">M.275</ref>, and perhaps <ref type="inscription" n="M.68">M.68</ref>;
+               for his appointment see on <ref type="inscription" n="M.141">M.141</ref>.</p>
+            <!-- <p>C. line  12 ὁρους κατεχομενους / ὑπὸ ιδιωτων δημῳ / Ῥωμαίων.</p> -->
+
+            <!-- check app -->
+            <!-- <note>In 1993 lines 6 f</note> PRAEDIA PRIS(C)VATIS / APOSSESSOR…SRESTI / T vac. TVIT λ </rdg></app>
+               <app><rdg><note>In 1993 lines 6</note> PRAEDIA CUPATIS</rdg></app></listApp> -->
+            <!-- check: does sdie c exist? or is this a different stone? -->
+         </div>
+
+      </body>
+   </text>
+</TEI>

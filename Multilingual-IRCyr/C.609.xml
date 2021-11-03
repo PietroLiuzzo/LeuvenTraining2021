@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="C86800" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mile I: <rs type="textType">Milestone</rs> of Trajan</title>
+                         <editor xml:id="edd">Editors</editor> <editor xml:id="jmr">Joyce M. Reynolds </editor> <editor xml:id="cmr"> Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">C.609</idno>
+            <idno type="ircyr2012">C86800</idno>
+            <idno type="JMR">Z.2</idno>
+            <idno type="Excel">nn</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                    (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the
+                    URL <ref>http://inslib.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository ref="institution.xml#db933">Cyrene Museum</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>A <objectType>column</objectType>ar milestone.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>No measurements; the numeral (line 9) is "molto grande".</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace><rs type="milestone" key="cyr-apo" n="1">Cyrene-Apollonia Road, mile I</rs>.</origPlace>
+                     <origDate notBefore="0100" notAfter="0100" precision="high" cert="high" evidence="titulature">CE 100</origDate>
+                  </origin>
+                        <provenance type="found">
+                           <p>Found in <date type="found">1913</date>.
+                              <placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/909">Cyrene</placeName>:
+                              at the bend of the road below the former sculpture museum.</p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p><placeName ref="https://www.slsgazetteer.org/933">Cyrene Museum</placeName>.</p>
+                        </provenance>
+
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category><category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+               <term>
+                        <placeName type="modernFindspot" ref="http://sws.geonames.org/82972">Shahat</placeName>
+                    </term>
+            </keywords>
+         </textClass>
+      <creation>Transcription (Goodchild).</creation></profileDesc>
+      <revisionDesc>
+         <change when="2020-11-24" who="Irene">inserted lemmata and normalized Unicode</change>
+         <change when="2012-11-05" who="GB">moved text-constituted-from to profileDesc/creation</change>
+         <change when="2012-10-16" who="GB">broke provenance events into multiple provenance elements</change>
+         <change when="2012-01-08" who="SS">improved mark up</change>
+        <change when="2011-04-05" who="MGDA">fixed Goodchild bibliography</change>
+        <change when="2010-08-11" who="CMR">created from Goodchild and PHI</change>
+      </revisionDesc>
+   </teiHeader><facsimile><graphic url="31_doa" decls="#photograph"><desc>View (Department of Antiquities, E.18)</desc></graphic></facsimile>
+   <text>
+      <body>
+
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p><bibl><ptr target="ghislanzoni1915"/>, <citedRange>175-6</citedRange> and fig. 55</bibl>, whence <bibl><ptr target="SEG"/> <citedRange>9.251</citedRange></bibl>,
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/324101">324101</ref></citedRange></bibl>;
+               revision, with comment by M. N. Tod, by <bibl><ptr target="rgg1950"/>, <citedRange>6</citedRange></bibl>, on which <bibl><ptr target="robertBE"/>, <citedRange>1953.250</citedRange></bibl>;
+               whence (part) <bibl><ptr target="SEG"/> <citedRange>13.619</citedRange>.b</bibl>, <bibl><ptr target="AE"/> <citedRange>1951.210</citedRange></bibl>,
+               at <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD021427">021427</ref></citedRange></bibl> </p>
+         </div>
+
+         <div type="edition" xml:space="preserve">
+            <ab>
+              imp(erator) Caesa[r], [diui]
+Nerva[e fil](ius), Ner[va]
+Traian[us Aug](ustus) [Ger-]
+man(icus), pon[t](ifex) [max](imus), [trib](unicia) pot(estate) IIII,
+5imp(erator) XI
+co(n)s(ul) III, p(ater) p(atriae), [uiam fe]cit per
+tirones [lectos ex pro-]
+uinci[a Cyrenaica]
+( vac. ) A ( vac. )
+10Αὐτοκράτωρ [Καῖ]σαρ, θεοῦ
+Νέρβα υἱός, Νέρβα Τρ[αϊανὸς]
+Σεβαστὸς Γερμ[ανικός], [ἀρχιερεὺς]
+μέγιστος, δημ[αρχικῆς ἐξουσίας]
+τὸ δ´, ὕπατος γ´, [πατὴρ πατρίδος], [τὴν]
+15ὁδὸν ἐπο[ίησεν διὰ τῶν]
+καταλεχθ[έντων ἐκ τῆς Κυρη-]
+ναϊκῆς [ἐπαρχίας τιρώνων]
+            </ab>
+         </div>
+
+
+
+         <div type="translation" xml:space="preserve">
+            <div type="translation" resp="#cmr" xml:lang="en"><p><note>Latin</note>: Emperor Caesar, son of the deified Nerva, Nerva Trajan, Augustus, victor in Germania,
+               Chief Priest, holding tribunician power for the fourth time, acclaimed victor eleven times,
+               consul for the third time, father of the country, made [the road] using recruits [raised] in the province of Cyrenaica. </p>
+            <p><note>Greek</note>: Emperor Caesar, son of the deified Nerva, Nerva Trajan, Augustus, victor in Germania,
+               [Chief Priest], holding tribunician [power] for the fourth time, acclaimed victor eleven times,
+               consul for the third time, [father of the country], made the road using [recruits] raised in the [province] of Cyrenaica</p></div>
+
+
+
+         </div>
+         <div type="commentary">
+            <head>Commentary</head>
+            <p>This is the first mile on the road from Cyrene to Apollonia.</p>
+            <p>For texts recording Trajan's work on the roads see, for the Cyrene to Apollonia Road, <ref type="inscription" n="C.609">C.609</ref>, <ref type="inscription" n="M.222">M.222</ref>,
+               <ref type="inscription" n="M.224">M.224</ref>, and, a later text, <ref type="inscription" n="M.227">M.227</ref>;
+               for the Cyrene to Ptolemais road see <ref type="inscription" n="M.196">M.196</ref> and <ref type="inscription" n="M.200">M.200</ref>.</p>
+               <!-- for type and comment see <ref type="inscription" n="M.224">M.224</ref> -->
+         </div>
+
+      </body>
+   </text>
+</TEI>

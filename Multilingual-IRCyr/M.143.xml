@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="C84100" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><rs type="textType">Boundary</rs> marker</title>
+
+            <editor xml:id="edd">Editors</editor> <editor xml:id="jmr">Joyce M. Reynolds </editor> <editor xml:id="cmr"> Charlotte Roueché</editor>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Centre for Computing in the Humanities, King's College London</authority>
+            <idno type="filename">M.143</idno>
+            <idno type="ircyr2012">C84100</idno>
+            <idno type="JMR">Y 5</idno>
+            <idno type="Excel">1191</idno>
+            <availability>
+               <p>Creative Commons licence Attribution UK 2.0
+                    (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
+               <p>All reuse or distribution of this work must contain somewhere a link back to the
+                    URL <ref>http://inslib.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier><repository>Findspot</repository></msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Brown <material>limestone</material> (<dimensions><width>0.63</width> <height>1.80</height> <depth>0.50</depth></dimensions>)
+                           </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout><rs type="execution" key="scalpro">Inscribed</rs> on three faces: a. Front face.
+                           b. To the right of a, damaged above and at the left side. c. Left side, damaged above and along both edges</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote><height>0.04 - 0.045</height>; very like of those of <ref type="inscription" n="M.153">M.153</ref> at Gfonta</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notAfter="0055" notBefore="0054" evidence="reign prosopography">54-55 CE</origDate>
+                  </origin>
+                  <provenance type="found"><p><placeName type="ancientFindspot" ref="https://www.slsgazetteer.org/1263">Gebel Akhdar: West of Cyrene</placeName>:
+                     <placeName ref="https://www.slsgazetteer.org/1186">Taurguni</placeName>, beside the road from Messa to Gfonta,
+                     about 5 km. from the main road to Wadi Cuf,
+                     on the edge of a fertile valley; found before <date type="found" notAfter="1933">1933</date></p>
+                        </provenance>
+                        <provenance type="observed">
+                           <p>Findspot</p>
+                        </provenance>
+
+
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Marked-up according to the EpiDoc Guidelines version 8</p>
+      <classDecl><taxonomy><category xml:id="photograph"><catDesc>Digital or digitized photographs</catDesc></category><category xml:id="representation"><catDesc>Digitized other representations</catDesc></category></taxonomy></classDecl></encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="el">Modern Greek</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass/>
+         <textClass>
+            <keywords scheme="IRCyr">
+               <term>
+                        <geogName type="ancientRegion" key="Cyrene">Cyrenaica</geogName>
+                    </term>
+               <term>
+                        <geogName type="modernCountry" key="LY">Libya</geogName>
+                    </term>
+
+            </keywords>
+         </textClass>
+      <creation>Transcription from stone and from photographs (Reynolds).</creation></profileDesc>
+      <revisionDesc>
+         <change when="2020-11-24" who="Irene">inserted lemmata and normalized Unicode</change>
+         <change when="2012-11-05" who="GB">moved text-constituted-from to profileDesc/creation</change>
+         <change when="2012-10-16" who="GB">broke provenance events into multiple provenance elements</change>
+         <change when="2012-07-27" who="GB">lemmatized Greek placenames</change>
+         <change when="2011-07-14" who="Pietro">added photographs</change>
+         <change when="2011-02-21" who="MGDA">fixed bibliography</change>
+         <change when="2010-08-04" who="GB">Converted from TEI P4 (EpiDoc DTD v. 6) to P5 (EpiDoc RNG schema v. 8)</change>
+         <change when="2010-06-30" who="AIO">tokenized</change>
+         <change when="2009-08-24" who="Paolo">turned to XML and tidied</change>
+         <change when="2009-08-19" who="GB">mailmerged: created from template</change>
+      </revisionDesc>
+   </teiHeader>
+         <facsimile>
+            <graphic url="C84100" decls="#photograph">
+               <desc>Face a</desc>
+            </graphic>
+      <!--Dept. F. 111, 1102, 1103, 1104. Taken when the stone was in better condition than now.-->
+      <surface/>
+         </facsimile>
+   <text>
+      <body>
+
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>
+               <bibl>
+                  <ptr target="oliverioDAI2"/>, <citedRange unit="entry">137</citedRange>, p. 129, pl. XLVI, XLVII. XLVIII, figgs.  107, 108a, 108b\c</bibl>, whence <bibl n="seg">
+                  <ptr target="SEG"/> <citedRange>9.352</citedRange></bibl>,
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/324201">324201</ref></citedRange></bibl>, <bibl><ptr target="AE"/> <citedRange>1934.260</citedRange></bibl>, whence
+              <bibl><ptr target="EDH"/> <citedRange><ref target="https://edh-www.adw.uni-heidelberg.de/edh/inschrift/HD027199">HD027199</ref></citedRange></bibl>; discussed in a note on <bibl>
+                  <ptr target="SECir"/> <citedRange>190</citedRange>, (<ref type="inscription" n="C.748">C.748</ref>)</bibl></p>
+         </div>
+
+         <div type="edition" xml:space="preserve">
+           <ab>
+             a
+             [Nero] Claudius diui
+             [Clau]di f(ilius) Ger(manici) Caesaris
+             [n(epos)] Ti(berii) Caesaris Aug[u]st[i]
+             [pr(onepos) diu]i Aug(usti) abn(epos) Caesar Aug(ustus)
+             5[G]ermanicos (sic) ((stop)) pontif(ex)
+             max(imus) trib(unicia) pot(estate) imp(erator) co(n)s(ul)
+             per ((stop)) L(ucium) Acilium ((stop)) Strabonem
+             leg(atum) suum ((stop)) fines ((stop)) occu-
+             [p]atos ((stop)) a ((stop)) priuatis P(opulo) R(omano) res-
+             10[ti]tuit ( vac. 1) ((leaf)) ( vac. 1) -
+             Νέρων Κλαὺ-
+             διος θεοῦ Κλαυδίου υ[ἱὸ]ς
+             Γερμανικοῦ Καίσαρος
+             υἱωνὸς Τι[βερίου] Καίσαρος
+             b
+             [Σεβαστ]ο̣ῦ̣ ( vac. (?) 3)
+             15[κα]ὶ̣ θεοῦ Σε- ( vac. 3)
+             [βα]στοῦ ἔγγο-
+             ν̣ος Καῖσαρ Σε-
+             β̣α̣στὸς Γερμα-
+             [ν]ι̣κ̣ὸς ἀρχιερεὺς
+             20μ̣έγιστος δημαρ-
+             χ̣ικῆς ἐξουσίας̣
+             Α̣ὐτοκράτωρ
+             ( vac. 1) ὕπατος
+             ( vac. 1 line)
+             c
+             [διὰ Λ(ουκίου) Ἀκι]λίο[υ]
+             25[Στράβ]ωνος ἰδ[ί-]
+             ου πρεσβευτο[ῦ]
+             [ὅρ]ους̣ διακατεχο̣-
+             μένους ὑπὸ ἰδιω̣-
+             τῶν Δήμῳ Ῥω- ( vac. 1)
+             30[μ]αί[ων] ἀποκατέσ-
+             ( vac. 3)τησεν ( vac. 4)
+           </ab>
+         </div>
+
+         <div type="apparatus">
+            <listApp>
+               <app loc="6"><lem>cos</lem><note>OCS</note>
+               </app>
+               <app loc="14-15"><note>Oliverio supplied ἀπέγγο/νο]ς, but the spacing does not allow for this, and Reynolds read an iota for the final sigma</note></app>
+
+            </listApp>
+         </div>
+
+         <div type="translation" xml:space="preserve"><head>Translations</head>
+            <div type="translation" source="#oliverioDAI2" xml:lang="it"><p>Nerone Claudio del divo Claudio figlio, di Germanico Cesare nipote, di Ti.
+            Cesare Augusto pronipote, del divo Augusto abnepote, Cesare Augusto Germanico, pontefice massimo, investito fella potestà tribunizia,
+            imperatore, console, per mezzo di L. Acilio Strabone, suo legato, i limiti dei terreni occupati dal privati al Popolo Romano restituì.</p></div>
+            <div type="translation" resp="#edd" xml:lang="en"><p><note>Latin</note>: Nero Claudius, son of deified Claudius, grandson of Germanicus Caesar, great grandson of Tiberius Caesar Augustus,
+               great-great grandson of deified Augustus, Caesar Augustus Germanicus, pontifex maximus,<ref target="https://godot.date/id/d7uUJksMH3VT3aS4khkLzL"> holding tribunician power, acclaimed imperator, consul</ref>;
+            by the action of Lucius Acilius Strabo, his personal envoy, he restored to the Roman People the boundaries
+                    <supplied reason="explanation">of the estates</supplied> which had been occupied by private persons.</p>
+            <p><note>Greek</note>: Nero Claudius, son of deified Claudius, grandson of Germanicus Caesar, great grandson of Tiberius Caesar Augustus and of deified Augustus, Caesar Augustus Germanicus,
+               high priest <supplied reason="explanation"><foreign xml:lang="la">pontifex maximus</foreign></supplied>, <ref target="https://godot.date/id/d7uUJksMH3VT3aS4khkLzL"> holding tribunician power, acclaimed imperator, consul</ref>    s;
+            by the action of Loukios Akilios Strabon <supplied reason="explanation"><foreign xml:lang="la">Lucius Acilius Strabo</foreign></supplied>, his personal envoy, he restored to the
+               Roman People the boundaries <supplied reason="explanation">of the estates</supplied> which had been occupied by private persons.</p></div>
+         </div>
+
+         <div type="commentary">
+            <head>Commentary</head>
+
+            <p>Line 1: Nero in the first year of his reign. </p>
+            <p>For Acilius Strabo see <title>PIR<hi rend="superscript">2</hi></title> A 0082, and <ref target="http://pir.bbaw.de/addenda/A/0082.html">addenda</ref>; he was active in Cyrenaica under Claudius and
+               Nero: <ref type="inscription" n="A.25">A.25</ref>, <ref type="inscription" n="A.50">A.50</ref>, <ref type="inscription" n="A.68">A.68</ref>,
+               <ref type="inscription" n="C.434">C.434</ref>,  <ref type="inscription" n="C.748">C.748</ref>, <ref type="inscription" n="M.125">M.125</ref>,
+               <ref type="inscription" n="M.141">M.141</ref>, <ref type="inscription" n="M.143">M.143</ref>,
+               <ref type="inscription" n="M.153">M.153</ref>, <ref type="inscription" n="M.172">M.172</ref>, <ref type="inscription" n="M.238">M.238</ref>,
+               <ref type="inscription" n="M.251">M.251</ref>, <ref type="inscription" n="M.275">M.275</ref>, and perhaps <ref type="inscription" n="M.68">M.68</ref>;
+               for his appointment see on <ref type="inscription" n="M.141">M.141</ref>.</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>
