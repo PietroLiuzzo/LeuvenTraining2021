@@ -5,8 +5,12 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><rs type="textType">Honours</rs> for Hadrian</title>
-                         <editor xml:id="edd">Editors</editor> <editor xml:id="jmr">Joyce M. Reynolds </editor> <editor xml:id="cmr"> Charlotte Roueché</editor>
+            <title>
+              <rs type="textType">Honours</rs> for Hadrian</title>
+              <editor xml:id="edd">Editors</editor>
+              <editor>dasda</editor>
+              <editor xml:id="jmr">Joyce M. Reynolds </editor>
+              <editor xml:id="cmr"> Charlotte Roueché</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Centre for Computing in the Humanities, King's College London</authority>
